@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>To do list</title>
+</head>
+<body>
+    <div class="container">
+        <div class = "content">
+            <h4 class="content-title">To Do List</h4>
+            <form id="form"> 
+                
+             <input type="text" id="input" class="input" placeholder="Add A Task" required>
+             <input type="submit" value="Add Task" class="addtask">
+            </form>
+            <div class="task-content">
+                <form>
+                   <input type="text" placeholder="Search..." class="search-item">
+                   <input type="button" id="clear" value="Clear All Task">
+                </form>
+                <h5>Your Task</h5>
+                <ul class="task">
+                    <!-- Added Task Here -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
